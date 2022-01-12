@@ -12,7 +12,7 @@ export class SampleDatePickerNormal implements OnInit {
 
     @ViewChild('mydp') mydp: MyDatePicker;
 
-    private myDatePickerNormalOptions: IMyDpOptions = {
+    public myDatePickerNormalOptions: IMyDpOptions = {
         todayBtnTxt: 'Today',
         dateFormat: 'dd.mm.yyyy',
         firstDayOfWeek: 'mo',
@@ -58,15 +58,15 @@ export class SampleDatePickerNormal implements OnInit {
         disableWeekdays: [],
         allowSelectionOnlyInCurrentMonth: true
     };
-    private selectedDateNormal:string = '';
+    public selectedDateNormal:string = '';
 
-    private selectedTextNormal: string = '';
-    private border: string = 'none';
+    public selectedTextNormal: string = '';
+    public border: string = 'none';
 
-    private placeholder: string = 'Select date';
-    private disabled: boolean = false;
+    public placeholder: string = 'Select date';
+    public disabled: boolean = false;
 
-    private selector: IMySelector = {
+    public selector: IMySelector = {
         open: false
     };
 

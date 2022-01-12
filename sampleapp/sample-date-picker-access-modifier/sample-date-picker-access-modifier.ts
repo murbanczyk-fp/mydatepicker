@@ -10,21 +10,21 @@ import {IMyOptions, IMyInputFieldChanged} from '../../projects/mydatepicker/src/
 
 export class SampleDatePickerAccessModifier implements OnInit {
 
-    private myDatePickerOptions: IMyOptions = {
+    public myDatePickerOptions: IMyOptions = {
         dateFormat: 'd.m.yyyy',
         height: '34px',
         width: '210px',
         inline: false
     };
 
-    private myForm: FormGroup;
+    public myForm: FormGroup;
 
-    private model: string = null;   // not initial date set (use null or empty string)
+    public model: string = null;   // not initial date set (use null or empty string)
     //private model: Object = {jsdate: new Date()};   // initialize today with jsdate property
     //private model: Object = {date: {year: 2018, month: 10, day: 9}};   // this example is initialized to specific date
     //private model: Object = {formatted: '24.09.2018'};   // this example is initialized to specific date
 
-    private selector: number = 0;
+    public selector: number = 0;
 
     constructor(private formBuilder: FormBuilder) { }
 

@@ -1,5 +1,7 @@
 # mydatepicker
 
+Updated to work with angular 12 (in theory).
+
 **New datepicker library**
 
 __If your Angular version is >= 7.2 you can use a new version ([angular-mydatepicker](https://github.com/kekeh/angular-mydatepicker)) of this component:__ 
@@ -431,7 +433,6 @@ Online demo is [here](http://kekeh.github.io/mydatepicker)
 * Chrome
 * Chromium
 * Edge
-* IE11
 * Safari
 
 ## License
