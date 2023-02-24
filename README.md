@@ -1,6 +1,6 @@
 # mydatepicker
 
-Updated to work with angular 12 (in theory).
+Updated to work with angular 13 (in theory).
 
 **New datepicker library**
 

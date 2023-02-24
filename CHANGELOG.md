@@ -30,5 +30,15 @@
 
 * none
 
+# 13.0.0 (2020-06-18)
+
+### Bug Fixes
+
+* none
+
+### Features
+
+* Support for Angular 13
+
 
 
